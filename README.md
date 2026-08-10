@@ -64,7 +64,7 @@ The downside: tunnel daemon has to be running. I set it up as a systemd unit wit
 
 This is the choice that most surprises people, so it deserves the most explanation.
 
-At my current scale (small but real money flowing through), the cost-benefit on database choice is:
+At my current scale (pre-revenue on the product, low volume), the cost-benefit on database choice is:
 
 - A managed Postgres (Supabase, Neon, RDS) costs me at least $25/mo and adds a network hop on every read
 - A local SQLite would mean writing migrations, managing schema, dealing with file-locking semantics during concurrent writes
