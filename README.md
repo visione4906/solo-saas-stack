@@ -1,6 +1,6 @@
 # solo-saas-stack
 
-The exact infrastructure that runs a UK SaaS solo, on free tiers, for under £40/month.
+The exact infrastructure that runs a UK SaaS solo, on free tiers.
 
 This is a notes-as-portfolio repo. No frameworks to install, no boilerplate to fork. Just the receipts — what runs, what it costs, why I chose it, what I would do differently with more money.
 
@@ -22,9 +22,9 @@ This is a notes-as-portfolio repo. No frameworks to install, no boilerplate to f
 | Observability | `journalctl` + plain text log files + a daily digest cron | £0/mo | At solo scale, you can read your own logs. I added structured digest emails (top errors, send counts, reply queue size) to my inbox every evening. |
 | Monitoring | A Cloudflare Healthcheck pinging `/` every minute | £0/mo | Email alert if 3 consecutive checks fail. |
 
-**Total monthly burn: under £40.**
-
-Less than a weekly Oyster card.
+**The table is the claim.** Every line above is the actual product and tier in use.
+I have not published a monthly total, because I have not published the bills that
+would prove one.
 
 ## Decision log
 
